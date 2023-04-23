@@ -1,0 +1,22 @@
+#section1 {
+    background-image: url(../../assets/images/fnaaaat.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 80vh;
+}
+#section2{
+    background-color: black;
+    height: 100%;
+}
+#head1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+#card{
+    background-image: linear-gradient(-70deg,#FF5900,black, black, black); ;
+    
+}

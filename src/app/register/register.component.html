@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div id="section2" class="row">
+        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+            <div class="container h-80">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                        <div id="card" class="card" style="border-radius: 15px;">
+                            <div class="card-body p-5">
+                                <h2 class="text-uppercase text-center text-light mb-5">Register</h2>
+
+                                
+                                <form class="needs-validation" ngNativeValidate >
+                                    <div class="mb-4">
+                                        <label for="firstname" class="form-label text-light">Firstname</label>
+                                        <input [(ngModel)]="user.firstname" type="text" name="firstname" class="form-control" id="firstname" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="lastname" class="form-label text-light">Lastname</label>
+                                        <input [(ngModel)]="user.lastname"type="text" class="form-control" name="lastname" id="lastname" required>
+                                    </div>
+
+                                    <div class="mb-4">
+                                      <label for="email" class="form-label text-light">Email address</label>
+                                      <input [(ngModel)]="user.email" type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+                                      <div id="emailHelp" class="form-text ">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="password" class="form-label text-light">Password</label>
+                                      <input type="password" [(ngModel)]="user.password" name="password" class="form-control" id="password">
+                                    </div>
+                                   
+                                    <div class="d-flex justify-content-center mb-4">
+                                        <button [disabled]="!formValid()" (click)="ajout()" type="submit" class="btn btn-dark ">Submit</button>
+                                    </div>
+                                  
+                                  </form>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>

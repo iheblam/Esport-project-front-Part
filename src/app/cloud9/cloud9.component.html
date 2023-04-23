@@ -1,0 +1,84 @@
+<div class="container-fluid">
+    <div id="section1" class="row">
+
+    </div>
+    <div id="section2" class="row justify-content-center">
+        <div class="col-md-12">
+            <h1 id="head1"> PLAYERS</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div id="card" class="card h-100">
+                    <img id="cardim" src="../../assets/images/leaf.png" class="card-img-top" alt="babybay">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Leaf</h5>
+                        <p class="card-text text-dark">Nathan Orf | Cloud9 <br> <br>
+                            The youngest player on our roster, leaf has made a name for himself in the community
+                            with his quick-thinking and adaptability. Time after time, he has demonstrated his
+                            competitive spirit and efforts, taking the team to all-new levels as Cloud9 qualified
+                            and reached Top 8 in VCT Champions. If you re not careful, a singular leaf can take you
+                            out.
+                        </p>
+                        <a *ngIf="isloggedin" routerLink="/csoon"> <button class="btn btn-light">Player Stats</button></a>
+                            <a *ngIf="!isloggedin" routerLink="/login-signup"> <button class="btn btn-light">Player Stats</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div  class="card h-100">
+                    <img id="cardim" src="../../assets/images/xeppa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Xeppaa </h5>
+                        <p class="card-text text-dark">Real Name: Erick Bach | Cloud9 <br> <br>
+                            Through his commitment and efforts towards improving, Xeppaa s skills as a player have
+                            skyrocketed during his time at Cloud9, with many considering him to be one of the top
+                            initiators in NA. Well-known for his energetic personality, Xeppaa has quickly become a
+                            favorite among fans. Tune into his stream, and you ll find him belting out lyrics or
+                            getting sturdy.
+                        </p>
+                        <a *ngIf="isloggedin" routerLink="/csoon"> <button class="btn btn-light">Player Stats</button></a>
+                        <a *ngIf="!isloggedin" routerLink="/login-signup"> <button class="btn btn-light">Player Stats</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div  class="card h-100">
+                    <img id="cardim" src="../../assets/images/zelsis.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Zellsis</h5>
+                        <p class="card-text text-dark">Real Name: Jordan Montemurro | Cloud9 <br> <br>
+                            His commitment and drive as an individual has earned him several top placements, such as
+                            qualifying for VCT Masters, within his professional gaming career. Well-known for his
+                            magnetic personality, Zellsis is an instrumental figure in C9VAL s synergy with his
+                            mentality of staying focused while having fun.</p>
+                            <a *ngIf="isloggedin" routerLink="/csoon"> <button class="btn btn-light">Player Stats</button></a>
+                            <a *ngIf="!isloggedin" routerLink="/login-signup"> <button class="btn btn-light">Player Stats</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="card" class="card h-100">
+                    <img  id="cardim" src="../../assets/images/qpert.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">qpert </h5>
+                        <p class="card-text text-dark">Real Name: Mateja Mijović | Cloud9 <br> <br>
+                            Before Cloud9, qpert demonstrated his strengths as a player and coach, holding a long
+                            list of champion placements in multiple VALORANT tournaments. Fueled by his ambition and
+                            competitive drive, qpert s hard work has landed him a spot in one of the best NA teams.
+                            With his talent and team spirit, Mijovic is ecstatic to improve and reach new heights of
+                            his career with Cloud9.
+
+
+                        </p>
+                        <a *ngIf="isloggedin" routerLink="/csoon"> <button class="btn btn-light">Player Stats</button></a>
+                        <a *ngIf="!isloggedin" routerLink="/login-signup"> <button class="btn btn-light">Player Stats</button></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+    </div>
+</div>

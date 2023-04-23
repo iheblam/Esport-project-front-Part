@@ -1,0 +1,207 @@
+#section1 {
+    background-image: url(../../assets/images/valobgpc.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+#section2 {
+    background-image: url(../../assets/images/desktop-1920x1080.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    opacity: 90%;
+
+}
+
+#heading1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 200px;
+    margin-left: 48px;
+}
+
+#heading4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+#parag {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+#video {
+    height: 30vh;
+    margin-top: 200px;
+    margin-left: 50px;
+    border-radius: 5px;
+
+
+}
+
+#bt1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+#section3{
+    background-image: url(../../assets/images/geeko.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+#section3 h4{
+    margin-top: 300px;
+    margin-left: 200px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+}
+#section3 h1{
+    margin-top:50px;
+    margin-left: 200px;
+    font-size: 75px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+#bt2{
+    margin-top:35px;
+    margin-left: 200px;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+#footer{
+    background-color: black;
+    padding: 10px;
+}
+#footer p{
+    margin-top: 10px;
+    color: white;
+}
+
+@media (max-width: 605px) {
+    #section1 {
+        background-image: url(../../assets/images/valobgphone.jpg);
+        background-position: center;
+        background-position: center;
+        background-size: cover;
+        height: 65vh;
+    }
+    
+    
+   
+
+
+
+}
+@media (max-width: 1588px) {
+    #section1 {
+        background-image: url(../../assets/images/valobgphone.jpg);
+        background-position: center;
+        background-position: center;
+        background-size: cover;
+        height: 65vh;
+    }
+    #video {
+        height: 25vh;
+        margin-top: 200px;
+        margin-left: 30px;
+        border-radius: 5px;
+    
+    
+    }
+    #heading1 {
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: 200px;
+        margin-left: 48px;
+        color: white;
+    }
+    
+    #heading4 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 55px;
+        color: white;
+    }
+    
+    #parag {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 55px;
+        color: white;
+    }
+    #section2 {
+        background-image: url(../../assets/images/bluredimage.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        opacity: 90%;
+    
+    }
+    
+    
+   
+
+
+
+}
+@media (max-width: 654px) {
+    #section3 h4{
+        margin-top: 300px;
+        margin-left: 10px;
+        font-size: 15px;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 4px;
+    
+    }
+    #section3 h1{
+        margin-top:50px;
+        margin-left: 10px;
+        font-size: 40px;
+        color: white;
+        font-weight: 800;
+        letter-spacing: 1px;
+    
+    }
+    #bt2{
+        margin-top:35px;
+        margin-left: 10px;
+        font-size: 15px;
+        padding: 10px 20px;
+        text-align: center;
+    
+    }
+    #section3{
+        background-image: url(../../assets/images/geekooo.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 100vh;
+    }
+
+
+}
