@@ -2,122 +2,36 @@
     <div class="row justify-content-center">
       <div class="col-md-6">
            <!-- card1-->
-        <div class="card mt-5 mb-5">
+        <div class="card mt-5 mb-5" *ngFor="let d of dataa">
           <div class="card-header">
             <div class="row justify-content-center">
               <div class="col-8 text-center">
-                <h4>Team faze vs Team cloud9</h4>
-                <h5>match duration</h5>
+                <h4>{{d.teams[0].name}} VS {{d.teams[1].name}}</h4>
+                <h5>{{d.duration}}</h5>
               </div>
             </div>
           </div>
           <div class="card-body">
             <div class="row justify-content-around">
               <div class="col-4 text-center">
-                <img src="../../assets/images/fazescore.png" height="50px" />
-                <h2 class="my-3">13</h2>
+                <img [src]="d.teams[0].logo" height="50px" />
+                <h2 class="my-3">{{d.teams[0].score}}</h2>
               </div>
               <div class="col-4 text-center mt-3">
-                  <h1>23:00 <br>_</h1>
+                  <h1>{{d.time}}<br>_</h1>
               </div>
               <div class="col-4 text-center">
-                <img src="../../assets/images/cloud9score.png" height="50px" />
-                <h2 class="my-3">6</h2>
+                <img [src]="d.teams[1].logo" height="50px" />
+                <h2 class="my-3">{{d.teams[0].score}}</h2>
               </div>
             </div>
           </div>
           <div class="card-footer justify-content-center">
-            <p class="m-0 text-center">April 25, 2023</p>
+            <p class="m-0 text-center">{{d.date}}</p>
           </div>
         </div>
 
-        <!-- card2-->
-        <div class="card mt-5 mb-5">
-          <div class="card-header">
-            <div class="row justify-content-center">
-              <div class="col-8 text-center">
-                <h4>Team faze vs Team Fnatic</h4>
-                <h5>match duration</h5>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="row justify-content-around">
-              <div class="col-4 text-center">
-                <img src="../../assets/images/fazescore.png" height="50px" />
-                <h2 class="my-3">8</h2>
-              </div>
-              <div class="col-4 text-center mt-3">
-                  <h1>25:00 <br>_</h1>
-              </div>
-              <div class="col-4 text-center">
-                <img src="../../assets/images/fnaticscore.png" height="50px" />
-                <h2 class="my-3">13</h2>
-              </div>
-            </div>
-          </div>
-          <div class="card-footer justify-content-center">
-            <p class="m-0 text-center">April 20, 2023</p>
-          </div>
-        </div>
-          <!-- card3-->
-          <div class="card mt-5 mb-5">
-              <div class="card-header">
-                <div class="row justify-content-center">
-                  <div class="col-8 text-center">
-                    <h4>Team Fnatic vs Team cloud9</h4>
-                    <h5>match duration</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="row justify-content-around">
-                  <div class="col-4 text-center">
-                    <img src="../../assets/images/fnaticscore.png" height="50px" />
-                    <h2 class="my-3">13</h2>
-                  </div>
-                  <div class="col-4 text-center mt-3">
-                      <h1>32:00 <br>_</h1>
-                  </div>
-                  <div class="col-4 text-center">
-                    <img src="../../assets/images/cloud9score.png" height="50px" />
-                    <h2 class="my-3">11</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer justify-content-center">
-                <p class="m-0 text-center">April 22, 2023</p>
-              </div>
-            </div>
-             <!-- card4-->
-          <div class="card mt-5 mb-5">
-              <div class="card-header">
-                <div class="row justify-content-center">
-                  <div class="col-8 text-center">
-                    <h4>Team sentinel vs Team faze</h4>
-                    <h5>match duration</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body">
-                <div class="row justify-content-around">
-                  <div class="col-4 text-center">
-                    <img src="../../assets/images/sentscore.png" height="50px" />
-                    <h2 class="my-3">14</h2>
-                  </div>
-                  <div class="col-4 text-center mt-3">
-                      <h1> 34:00 <br>_</h1>
-                  </div>
-                  <div class="col-4 text-center">
-                    <img src="../../assets/images/fazescore.png" height="50px" />
-                    <h2 class="my-3">12</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="card-footer justify-content-center">
-                <p class="m-0 text-center">April 23, 2023</p>
-              </div>
-            </div>
+     
 
 
 

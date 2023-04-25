@@ -25,4 +25,10 @@ export class AuthService {
     this.isAuthenticated = false; // set isAuthenticated to false
   }
 
+  getmatch(){
+    return this.http.get("../../assets/data.json")
+  }
+
+
+
 }

@@ -1,0 +1,72 @@
+{
+    "matches": [
+        {
+            "teams": [
+                {
+                    "name": "Team faze",
+                    "score": 13,
+                    "logo": "../../assets/images/fazescore.png"
+                },
+                {
+                    "name": "Team cloud9",
+                    "score": 6,
+                    "logo": "../../assets/images/cloud9score.png"
+                }
+            ],
+            "date": "April 25, 2023",
+            "duration": "match duration",
+            "time": "23:00"
+        },
+        {
+            "teams": [
+                {
+                    "name": "Team faze",
+                    "score": 8,
+                    "logo": "../../assets/images/fazescore.png"
+                },
+                {
+                    "name": "Team Fnatic",
+                    "score": 13,
+                    "logo": "../../assets/images/fnaticscore.png"
+                }
+            ],
+            "date": "April 20, 2023",
+            "duration": "match duration",
+            "time": "25:00"
+        },
+        {
+            "teams": [
+                {
+                    "name": "Team Fnatic",
+                    "score": 13,
+                    "logo": "../../assets/images/fnaticscore.png"
+                },
+                {
+                    "name": "Team cloud9",
+                    "score": 11,
+                    "logo": "../../assets/images/cloud9score.png"
+                }
+            ],
+            "date": "April 22, 2023",
+            "duration": "match duration",
+            "time": "32:00"
+        },
+        {
+            "teams": [
+                {
+                    "name": "Team sentinel",
+                    "score": 14,
+                    "logo": "../../assets/images/sentscore.png"
+                },
+                {
+                    "name": "Team faze",
+                    "score": 12,
+                    "logo": "../../assets/images/fazescore.png"
+                }
+            ],
+            "date": "April 23, 2023",
+            "duration": "match duration",
+            "time": "34:00"
+        }
+    ]
+}
