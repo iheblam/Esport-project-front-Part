@@ -20,5 +20,9 @@ export class AuthService {
   loginUser(user: any) {
     return this.http.post(this.url + 'user/login', user);
   }
+  logoutUser() {
+    localStorage.removeItem('token'); // remove the token from local storage
+    this.isAuthenticated = false; // set isAuthenticated to false
+  }
 
 }

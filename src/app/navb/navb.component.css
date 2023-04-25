@@ -1,0 +1,12 @@
+#logout{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    transition: 1s ease;
+    padding: 5px 10px 5px 10px;
+}
+#logout:hover{
+    background-color: grey;
+    transform: scale(1.1);
+
+}
